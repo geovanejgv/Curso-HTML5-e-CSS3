@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 50px;
+    font-size: 17px;
+}
+
+p {
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Helvetica, Arial;
+    text-align: justify;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline; /* coloca o sublinhado quando o mouse passa por cima*/
+}
