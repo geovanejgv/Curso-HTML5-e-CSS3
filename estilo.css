@@ -1,0 +1,28 @@
+#titulo{
+    background-color: red;
+
+}
+
+p {
+background-color: blue;
+border: radius 5px;
+color:white
+
+}
+
+div {
+    background-color: rgba(187, 226, 13, 0.808);
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 3px solid darkgreen;
+
+}
+
+img {
+    border:3px solid red;
+    border-radius: 30px;
+    overflow: hidden; /*  Este comando "corta o excesso da imagem"  */
+    
+
+}
