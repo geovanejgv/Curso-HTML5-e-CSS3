@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box; /* este comando tem a finalidade de estipular que a dimensão da div será
+     exatamente a especificada, descontada do tamanha o padding e o margim, caso haja*/
+}
+
+body {
+    margin:0px; /* este comando tem a função de retirar a margem do body, para a mesma não interferir no projeto*/
+    }
+    .exemplo{
+        background-color: rgb(94, 175, 28);
+        width: 400px;
+        height: 400px;
+        border:5px solid black;
+        padding:10px;
+        margin:20px;
+    
+    }
+    
+    

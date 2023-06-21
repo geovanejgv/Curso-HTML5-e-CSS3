@@ -1,0 +1,14 @@
+body {
+margin:0px;
+}
+.exemplo{
+    background-color: black;
+    width: 600px;
+    height: 600px;
+
+}
+
+img {
+    width: inherit; /* O comando inherith faz com que a medida seja herdada do item anterior. \neste ex a imagem esta pegando a largura da div */
+    max-width: 450; /* limita o tamanho maximo que a imagem pode chegar */
+}

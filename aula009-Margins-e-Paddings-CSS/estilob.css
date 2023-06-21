@@ -1,0 +1,22 @@
+
+body {
+    margin:0px;
+
+
+}
+.exemplo {
+    border: 3px solid rgb(24, 206, 24);
+    padding: 10px 20px 10px 50px;  /* neste caso, as distancias seguem a ordem horária, começando em cima.
+    /*margin: 20px;
+*/
+}
+
+
+/* 
+Margim é o espaçamento EXTERNO, ou seja, apos a borda.
+
+Padding é o espaçamento INTERNO do meu elemento
+
+Conteudo
+
+Borda
