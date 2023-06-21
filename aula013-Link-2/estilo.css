@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+.link {
+    color:rgb(31, 192, 138);
+    font-size:30px;
+}
+.link:hover {    /*Quando a pessoa passa o mouse, acontece que estiver predefinido*/
+    color:red;
+    font-size: 60px;
+    background-color: yellow;
+}
+.link:visited {
+    color:pink;
+}
