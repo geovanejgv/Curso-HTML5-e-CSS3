@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+
+#boxb {
+    background-color: rgb(201, 34, 34);
+    height: 19vh;
+    width: 100vw;
+    text-align: center;
+}
+.box {
+    background-color: #999;
+    height: 81vh;
+    width: 12vw;
+    
+}
