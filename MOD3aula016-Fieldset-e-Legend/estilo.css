@@ -1,0 +1,22 @@
+fieldset {
+    background-color: #EEE;
+    margin-bottom: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 150;
+    
+}
+
+legend {
+    background-color: red;
+    color: #FFF;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: 'Tsukimi Rounded';
+    font-weight: bold;
+}
+label {
+    font-family: 'Tsukimi Rounded';
+    font-weight: bold;
+
+}

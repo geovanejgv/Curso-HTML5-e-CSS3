@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags Fieldset e Legend</title>
+
+<!--No link abaixo, eu importei a fonte no site google fonte e utiizei no textei no CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tsukimi+Rounded&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+                <!--Campo "enctype" obrigatório sempre que for enviar uma imagem, como no Label FOTO-->
+    <form method="POST" action="blablabla.php" enctype="multipart/form-data">
+        <input type="hidden" name="country" value="JP"/>
+
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label>
+            Primeiro Nome: <br/>
+            <input type="text" name="nome" required minlength="2" maxlength="4"/>
+        </label><br/>
+        <label>
+            Sobrenome: <br/>
+            <input type="text" name="sobrenome" />
+        </label><br/>
+        <label>
+            Idade: <br/>
+            <input type="number" name="age" step="2"/>
+        </label><br/>
+        <label>
+            Idade Mãe: <br/>
+            <input type="number" name="agemae"  min="18" max="120"/>
+        </label><br/>
+        <label>
+            Data de Nascimento: <br/>
+            <input type="date" name="birthdate"  min="2023-06-14" />
+        </label><br/>
+
+               <!--Código "pattern" refere-se a um padrão imposto, quando for usar este campo, pesquisar qual o padrão para e-mail-->
+        <label>
+            E-mail: <br/>
+            <input type="email" name="email" pattern="" />
+        </label><br/>
+
+                <!--No comando "accept" a gente pre-seleciona a extensão para o usuario, porém ele pode mudar posteriormente.-->
+        <label>
+            Foto <br/>
+            <input type="file" name="photo" accept="image/*" />
+        </label><br/>
+        <label>
+            PDF <br/>
+            <input type="file" name="pdf" accept="application/pdf" />
+        </label><br/>
+    </fieldset>
+
+    <fieldset>
+        <legend>Dados Profissionais</legend>
+        <label>
+            Nome da Empresa: <br/>
+            <input type="text" name="companyname"/>
+        </label><br/>
+        <label>
+            Cargo na Empresa: <br/>
+            <input type="text" name="cargo"/>
+        </label><br/>
+    </fieldset>
+
+        <input type="submit" value="Cadastrar"/>
+    </form>
+    
+
+        
+
+
+
+
+
+        
+</body>
+
+</html>
