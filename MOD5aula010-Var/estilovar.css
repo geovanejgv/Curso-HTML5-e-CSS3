@@ -1,0 +1,30 @@
+/*Variavel utilizada para criar padroes que poderao ser utilizado em todo o css
+
+Obs: :root  utilizado para aplcar a todo o CSS
+*/
+
+:root {
+    --bg-color:rgb(20, 3, 3);
+    --bg-second:#444;
+    --font-color:#fff;
+    --font-size: 95px;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+h1 {
+    color: var(--font-color,);
+    font-size: var(--font-size);
+}
+.container {
+    background-color: var(--bg-second);
+    color: var(--font-color);
+}
+
+/*Neste ex o @media esta sendo utilizado para alterar o padrao do root, conforme altera o tamanho da tela*/
+@media (max-width: 700px) {
+    :root {
+        --font-size:15px;
+    }
+}
