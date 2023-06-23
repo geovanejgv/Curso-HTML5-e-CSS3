@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Imagem Responsiva</title>
+
+
+    <!--                Responsividade com imagem
+        
+        1- A opção viewreport habilita a versão para dispositivos móveis
+        2- O comando "user-scalable=no" desabilita a funçao do usuário dar zoom na página-->
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+
+    
+    <picture>
+        
+            <source media="(min-width: 950px)" srcset="imagem2.jpg" > <!--Aparece primeiro-->
+            <source media="(min-width: 650px)" srcset="imagem3.jpg" > <!--Segundo-->
+            <img src="imagem1.jpg" style="width: auto;"> <!--Terceiro-->
+            
+
+    </picture>
+    
+
+
+
+</body>
+</html>
