@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inputs</title>
+    <title>Site Geovane</title>
 
 <!--No link abaixo, eu importei a fonte no site google fonte e utiizei no textei no CSS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Tsukimi+Rounded&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="estilot.css" />
+    <link rel="stylesheet" href="estilos;style.css" />
 </head>
 <body>
 
@@ -19,28 +19,86 @@
         <h2>Área de Cadastro</h2>
     <form action="Tabelas-CSS.html" method="GET"><!--get coloca a informação na URL, o modo "pos" vai internamente, sem aparecer na URL-->
 
-            <input type="text" name="usuario" value="Insira seus dados"/>
-            <input type="submit" value="Fazer Cadastro"/><p></p>
-           <input type="password" />Password <p></p>
-            <input type="checkbox" />checkbox <p></p>
-            <input type="email" /> e-mail <p></p>
-            <input type="color" /> cor <p></p>
-            <input type="date" /> data <p></p>
+           
+        <fieldset>
+
+            <legend>Dados Pessoais</legend>
+
+         <label>
+                Primeiro Nome: <br/>
+            <input type="text" name="usuario" placeholder="Usuário"/>
+        </label> <p></p>
+            
+           
+        <label>
+                 Senha: <br/>
+        <input type="password" placeholder="Senha" /><p></p>
+        </label>
+
+        <label>
+            Mes e Ano <br/>
+            <input type="month" />  <p></p>
+        <label> 
+            
+            
+        <label>   
+            Telefone <br/> 
+            <input type="tel" placeholder="Telefone" /> Telefone <p></p>
+        </label>
+
+
+        <label>   
+            Numeros <br/> 
+            <input type="number" /> <p></p>
+        </label>
+
+        <label>   
+            Radios <br/>
+            <input type="radio" name="sexo" M/>
+            <input type="radio" name="sexo" F/> <p></p>
+        </label>    
+            
+          
+        <label>   
+            Checkbox <br/>
+            <input type="checkbox" /><p></p> 
+        </label>  
+
+        <label>   
+            E-mail <br/>
+            <input type="email" placeholder="E-mail"/>  <p></p>
+        </label>
+
+        <label>   
+            Cor <br/>
+            <input type="color" /><p></p>
+        </label>
+
+        <label>   
+            Data <br/>
+            <input type="date" />  <p></p>
+        </label>
+
+        </fieldset>
+            
+
+        <fieldset>
+
+            <legend>Dados Pessoais</legend>
             <input type="datetime-local" /> data e hora <p></p>
-            <input type="month" /> mês e ano <p></p>
-            <input type="number" /> Números <p></p>
+            
             <input type="range" /> Range <p></p>
             <input type="search" /> Search <p></p>
-            <input type="tel" /> Telefone <p></p>
             <input type="time" /> Hora <p></p>
-            <input type="url" /> URL <p></p>
+            <input type="url" placeholder="URL"/> URL <p></p>
             <input type="week" /> Semana <p></p>
 
             <!--Na opção type radio, é necessario que os nomes sejam iguais-->
             <input type="radio" name="sexo" /> 
-            <input type="radio" name="sexo" />
-            <input type="radio" name="sexo" /> radio
+            
+        </fieldset>
 
+        <input type="submit" value="Fazer Cadastro" placeholder="Fazer Cadastro"/><p></p>
     </form> 
         <p></p>
             
@@ -48,6 +106,41 @@
         
         <h2>Área de login</h2>
         <form></form>
-</body>
 
+    <main>
+
+    
+    <header>
+        <h1>Curso do Site</h1>
+
+    </header>
+    
+    <article>
+        <h2>Jakeline, Eu te Amo!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempore impedit aperiam est commodi reprehenderit neque aut, voluptatem recusandae vel voluptate accusantium in eius consequuntur officiis praesentium quaerat, nesciunt illum!</p>
+    </article>
+    <article>
+        <h2>Curso de JavaScript</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi doloribus similique temporibus ipsam fugiat. Et repellat, atque cumque, architecto consequatur distinctio mollitia sunt polrro doloremque cum voluptatem laboriosam iste culpa?</p>
+    </article>
+</main>
+<p></p>
+<main>
+
+    
+    <header>
+        <h1>Curso do Site</h1>
+
+    </header>
+    
+    <article>
+        <h2>Curso de HtML5 com CSS3</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempore impedit aperiam est commodi reprehenderit neque aut, voluptatem recusandae vel voluptate accusantium in eius consequuntur officiis praesentium quaerat, nesciunt illum!</p>
+    </article>
+    <article>
+        <h2>Curso de JavaScript</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi doloribus similique temporibus ipsam fugiat. Et repellat, atque cumque, architecto consequatur distinctio mollitia sunt polrro doloremque cum voluptatem laboriosam iste culpa?</p>
+    </article>
+</main>
+</body>
 </html>
